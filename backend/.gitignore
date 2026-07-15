@@ -1,8 +1,21 @@
 HELP.md
+
+# Maven
 target/
+backend/target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Environment variables
+.env
+**/.env
+
+# Frontend / Node.js
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
 
 ### STS ###
 .apt_generated
@@ -14,7 +27,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -31,12 +44,3 @@ build/
 
 ### VS Code ###
 .vscode/
-# Environment variables
-.env
-
-# Backend build
-backend/target/
-
-# Frontend
-frontend/node_modules/
-frontend/dist/
